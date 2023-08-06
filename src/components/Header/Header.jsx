@@ -20,7 +20,6 @@ export const Header = () => {
         <Container>
           <HeaderWrapper>
             <FaFlagUsa size="40px" color={theme.colors.light} />
-
             <LinkWrapper>
               <NavLinkStyled to="/">Home</NavLinkStyled>
               <NavLinkStyled to="/country">Countries</NavLinkStyled>

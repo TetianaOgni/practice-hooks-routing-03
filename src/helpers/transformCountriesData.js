@@ -7,6 +7,6 @@ export const transformCountriesData = data => {
       capital,
       population,
       languages,
-    }),
+    })
   );
 };

@@ -8,11 +8,11 @@ import { GlobalStyles, theme } from 'styles';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="practice-hooks-routing-03">
       <ThemeProvider theme={theme}>
         <Global styles={GlobalStyles} />
         <App />
       </ThemeProvider>
     </BrowserRouter>
-  </React.StrictMode>,
+  </React.StrictMode>
 );
